@@ -5,6 +5,8 @@ import 'package:provider/provider.dart';
 import 'package:todoey_flutter/models/task_data.dart';
 
 class TasksScreen extends StatelessWidget {
+  const TasksScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
