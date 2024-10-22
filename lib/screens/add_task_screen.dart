@@ -45,7 +45,7 @@ class AddTaskScreen extends StatelessWidget {
                     .addTask(newTaskTitle);
                 Navigator.pop(context);
               },
-              child: Text(
+              child: const Text(
                 'Add',
                 style: TextStyle(
                   color: Colors.white,
